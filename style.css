@@ -1,0 +1,322 @@
+body{
+     margin: 0;padding: 0;
+     font-family: 'Roboto Condensed', Courier, monospace;
+}
+nav{
+     position: relative;
+     
+}
+nav ul {
+     margin: 0;
+     background-color: white;
+     height: 50px;
+     display: flex;
+}
+nav ul li{
+     display: flex;
+   list-style: none;
+   padding: 20px;
+   align-items: center;
+   text-transform: uppercase;
+}
+.cover-image{
+     position: relative;
+}
+.cover-title{
+     position: absolute;
+     top: 80px;
+     left: 100px;
+     width: 50%;
+}
+.cover-title h2 {
+    font-size: 40px;
+    margin-top: -30px;
+}
+ .cover-title h3 {
+     font-size: 25px;
+}
+.cover-title h2,h3 {
+     text-transform: uppercase;
+}
+.cover-title p {
+     text-transform: capitalize;
+     margin-top: -20px;
+}
+.cover-title-action button{
+     padding: 8px;
+     text-transform: uppercase;
+}
+.cover-image img{
+     width: 100%;
+}
+.main-products{
+     margin: 20px;
+}
+.main-content{
+     display: inline-flex;
+     flex-wrap: wrap;
+     /* border: 1px solid red; */
+     margin: 0px 40px 0px 60px;
+     padding: 10px;
+}
+.card{
+     border-radius: 2px;
+     display: flex;
+     /* border: 1px solid red; */
+     margin-left: 20px;
+     width: 385px;
+     background-color: rgb(237, 235, 235);
+}
+.card-title{
+     margin: 10px 20px 20px;
+}
+.card-title a{
+     outline-style: none;
+}
+.main-img{
+     display: flex;
+     /* border: 1px solid red; */
+}
+.main-img img{
+  align-items: center;
+  width: 200px;
+  width: 150px;
+}
+.trending-products{
+     margin-left: 150px;
+     margin-right: 180px;
+     /* border: 1px solid red; */
+}
+.trending-title{
+     text-align: center;
+}
+.trending-title h3{
+     margin-top: -10px;
+}
+.card-title a{
+     border: 1px solid gray;
+     padding: 5px;
+     text-decoration: none;
+}
+.products-card{
+     /* border: 1px solid red; */
+     margin: 20px;
+     display: flex;
+     flex-wrap: wrap;
+}
+.card-body{
+     /* border: 1px solid red; */
+     margin-left: 5px;
+}
+.card-body img{
+     width: 200px;
+}
+.card-body .products-star{
+     text-align: center;
+     color: rgb(243, 184, 9);
+     font-size: 20px;
+}
+.card-description p{
+     padding: 0px 10px 0 10px;
+     margin-top: -2px;
+}
+.price {
+     text-align: center;
+     font-weight: bold;
+}
+.top-products{
+     margin-left: 160px;
+     margin-right: 150px;
+     display: flex;
+     flex-wrap: wrap;
+     /* border: 1px solid red; */
+}
+.top-products .top-card{
+     /* border: 1px solid red; */
+     display: flex;
+     width: 30%;
+     margin: 10px;
+     background-color: rgb(227, 231, 235);
+}
+.top-card .top-title{
+     margin-top: 30px;
+     margin-left: 20px;
+}
+.top-card .top-title p{
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.top-card .top-title .color{
+     text-transform: uppercase;
+     font-weight: bold;
+     color: rgb(15, 127, 119);
+}
+.top-title .top-action a{
+     text-decoration: underline;
+     padding: 5px;
+}
+.top-card img{
+     width: 180px;
+     height: 150px;
+}
+.furniture{
+     margin-left: 160px;
+     margin-right: 150px;
+     display: flex;
+     margin-top: 20px;
+}
+
+.furniture .popular-furniture{
+     margin-left: 20px;
+     /* border: 1px solid red; */
+     width: 21%;
+}
+.popular-furniture p{
+     font-style: oblique;
+     text-transform: capitalize;
+}
+.popular-furniture h3{
+     text-transform: uppercase;
+     margin-top: -10px;
+     font-size: 16px;
+}
+.furniture-products{
+     margin-left: 160px;
+     margin-right: 150px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     display: flex;
+     flex-wrap: wrap;
+}
+.product-card{
+     display: flex;
+     width: 242px;
+     /* border: 1px solid red; */
+     margin: 10px;
+}
+.product-card img{
+     display: flex;
+     width: 150px;
+     height: 100px;
+     margin-top: 20px;
+}
+.products-description p{
+     text-transform: capitalize;
+     font-size: 14px;
+     color: black;
+     margin-top: 10px;
+}
+.products-description i{
+     color: rgb(255, 200, 0);
+}
+.products-description .price-products{
+     font-weight: bold;
+}
+.products-description .price-products del {
+     color: grey;
+}
+.actions-furniture{
+     margin-left: 160px;
+     margin-right: 150px;
+     display: flex;
+     /* border: 1px solid red; */
+}
+.box-actions{
+     /* border: 1px solid red; */
+     width: 250px;
+     display: flex;
+     margin-left: 10px;
+     line-height: 1;
+}
+.box-actions img{
+     width: 50px;
+     height: 50px;
+     margin-top: 10px;
+     /* border: 1px solid red; */
+     padding-right: 15px;
+}
+.box-action-title h3{
+     margin-left: 10px;
+     font-size: 14px;
+     text-transform: uppercase;
+}
+.box-action-title p {
+     font-size: 14px;
+     text-transform: capitalize;
+}
+footer{
+     margin-top: 20px;
+     width: 100%;
+     /* height: 200px; */
+     background-color: rgb(235, 235, 235);
+}
+.footer-items{
+     display: flex;
+     /* border: 1px solid red; */
+     margin-left: 160px;
+     margin-right: 150px;
+}
+.footer-card{
+     /* border: 1px solid red; */
+     margin-top: 20px;
+     width: 250px;
+     margin-bottom: 20px;
+}
+.footer-card .fotter-logo img{
+     /* border: 1px solid red; */
+     width: 200px;
+}
+.footer-card .footer-title h3{
+ text-transform: uppercase;
+ font-size: 16px;
+ color: #333;
+ font-family: 'Roboto Condensed', Courier, monospace;
+}
+.search-input{
+     display: flex;
+}
+.search-input input{
+     padding: 10px;
+     border-radius: 20px 0px 0px 20px;
+     border: none;
+     font-family: 'Roboto Condensed',
+          Courier,
+          monospace;
+          width: 150px;
+}
+.search-input button {
+     padding: 10px;
+     border-radius: 0px 20px 20px 0px;
+     border: none;
+     background-color: #333;
+     color: white;
+     font-family: 'Roboto Condensed', Courier, monospace;
+     cursor: pointer;
+}
+.copright{
+     background-color: #fff;
+}
+.copyright-content{
+     display: flex;
+     padding: 0 50px 0 50px;
+     justify-content: space-evenly;
+}
+.social-media{
+     display: flex;
+     align-items: center;
+}
+.social-media i:hover {
+     text-decoration: underline rgb(202, 189, 189);
+}
+.social-media i{
+     padding: 10px;
+}
+.community{
+ display: flex;
+ align-items: center;
+}
+.community img{
+     padding: 5px;
+     width: 30px;
+     height: 30px;
+}
